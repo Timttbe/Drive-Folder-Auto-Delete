@@ -31,7 +31,7 @@ Deletion can be:
 
 1. Go to [https://script.google.com/](https://script.google.com/)
 2. Click **New project**
-3. Paste the code above
+3. Paste the code in main.gs
 
 ### 2. Get the folder ID
 
@@ -56,11 +56,10 @@ Deletion can be:
 2. Add **Drive API**
 
 **In Google Cloud:**
-1. Go to **Project Settings**
-2. Click **Open in Google Cloud Platform**
-3. Navigate to **APIs & Services → Library**
-4. Search for **Google Drive API**
-5. Click **Enable**
+1. Go to [https://console.cloud.google.com/home/](https://console.cloud.google.com/home/)
+4. Navigate to **APIs & Services → Library**
+5. Search for **Google Drive API**
+6. Click **Enable**
 
 ### 4. Run for the first time
 
