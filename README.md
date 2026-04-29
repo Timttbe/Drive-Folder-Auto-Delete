@@ -10,11 +10,14 @@ Deletion can be:
 - 🗑️ **Moved to trash** (recoverable)
 - ❌ **Permanently deleted** (non-recoverable)
 
+> **How it works:** The script does **not** delete everything in the folder at once. Each file is deleted individually based on its own upload date — for example, with a 7-day window, a file added on January 1st will be deleted on January 8th, while a file added on January 5th will only be deleted on January 12th.
+
 ---
 
 ## 🚀 Features
 
 - Automatically removes files after X days
+- Each file is evaluated individually based on its own creation date
 - Can be run manually or on a scheduled trigger
 - Supports permanent deletion
 - Easy to set up and configure
@@ -61,9 +64,9 @@ Deletion can be:
 
 **In Google Cloud:**
 1. Go to [https://console.cloud.google.com/home/](https://console.cloud.google.com/home/)
-4. Navigate to **APIs & Services → Library**
-5. Search for **Google Drive API**
-6. Click **Enable**
+2. Navigate to **APIs & Services → Library**
+3. Search for **Google Drive API**
+4. Click **Enable**
 
 ### 4. Run for the first time
 
@@ -141,4 +144,4 @@ To view execution history:
 
 ## 👨‍💻 Author
 
-Developed by **Davi Han Ko**  
+Developed by **Davi Han Ko**
