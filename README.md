@@ -1,6 +1,10 @@
-# 📂 Google Drive Auto-Delete Script
+<h1 align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_Drive_logo.png/960px-Google_Drive_logo.png" width="30" style="vertical-align: middle; margin-right: 10px;">
+  Google Drive Auto-Delete Script
+</h1>
 
 A **Google Apps Script** that automatically removes files from a Google Drive folder after a defined period (default: 7 days).
+This project was created to automate file cleanup in Google Drive, avoiding manual deletion of old files.
 
 Deletion can be:
 - 🗑️ **Moved to trash** (recoverable)
@@ -137,4 +141,4 @@ To view execution history:
 
 ## 👨‍💻 Author
 
-Script built to automate file cleanup in Google Drive.
+Developed by **Davi Han Ko**  
