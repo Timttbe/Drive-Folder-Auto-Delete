@@ -7,14 +7,14 @@ A **Google Apps Script** that automatically removes files from a Google Drive fo
 This project was created to automate file cleanup in Google Drive, avoiding manual deletion of old files.
 
 Deletion can be:
-- 🗑️ **Moved to trash** (recoverable)
-- ❌ **Permanently deleted** (non-recoverable)
+- **Moved to trash** (recoverable)
+- **Permanently deleted** (non-recoverable)
 
 > **How it works:** The script does **not** delete everything in the folder at once. Each file is deleted individually based on its own upload date — for example, with a 7-day window, a file added on January 1st will be deleted on January 8th, while a file added on January 5th will only be deleted on January 12th.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Automatically removes files after X days
 - Each file is evaluated individually based on its own creation date
@@ -24,7 +24,7 @@ Deletion can be:
 
 ---
 
-## 🧩 Prerequisites
+## Prerequisites
 
 - A Google account
 - Access to the target Google Drive folder
@@ -32,7 +32,7 @@ Deletion can be:
 
 ---
 
-## ⚙️ Setup Guide
+## Setup Guide
 
 ### 1. Create the script
 
@@ -103,7 +103,7 @@ file.setTrashed(true);
 
 ---
 
-## 💡 Customization
+## Customization
 
 You can adapt the script to fit your needs:
 
@@ -124,7 +124,7 @@ if (file.getName() !== "important.pdf")
 
 ---
 
-## 📊 Logs
+## Logs
 
 To view execution history:
 
@@ -134,7 +134,7 @@ To view execution history:
 
 ---
 
-## 🛡️ Recommendations
+## Recommendations
 
 - Test with logs before enabling permanent deletion
 - Avoid using on critical folders without a backup
@@ -142,6 +142,6 @@ To view execution history:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by **Davi Han Ko**
