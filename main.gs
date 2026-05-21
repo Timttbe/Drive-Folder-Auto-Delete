@@ -2,8 +2,8 @@ function apagarArquivosSeteDias() {
   Logger.log("Script iniciado em: " + new Date());
 
   var pastasIds = [
-    "1DTWle5x4GYzkqCe1eMzHvxW04G2QgNme",
-    "1-pB4c_28SaT1MBtnHcoH-MBQyIoyB0uA"
+    "FOLDER_ID1",
+    "FOLDER_ID2"
   ];
 
   var diasParaManter = 7;
